@@ -1,0 +1,1172 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3", "http://purl.org/dc/elements/1.1" ],
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "version" : "version 1.0",
+    "comments" : {
+      "undefined" : "This ontology was created by Davide Apolloni for his masters' thesis on digital curation. The supervisor is Simona Caraceni, professor at University of Bologna and active member of Cineca Visit Lab. The co-supervisor is Silvano Imboden, computer scientist and expert on 3D graphics at Cineca Visit Lab."
+    },
+    "other" : {
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "version 1.0",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "8", "9", "10" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "7"
+  }, {
+    "instances" : 0,
+    "union" : [ "8", "12" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#MacroAreasFolder",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MacroAreasFolder"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Macroareas",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Macroareas"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A digital curator should be able to identify macroareas where common objects can be stored. Finding macroareas makes the work of the digital curator faster, easier and definitely more accurate. It also gives the opportunity to produce a more organized set of files that the institution can benefit from."
+    },
+    "id" : "10",
+    "superClasses" : [ "12" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "8", "9", "10" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "14"
+  }, {
+    "instances" : 0,
+    "union" : [ "8", "10" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#BackupFolder",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BackupFolder"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#BK_20xx",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "BK_20xx"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#bk_NOV17",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "bk_NOV17"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#BK_Mar_10",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "BK_Mar_10"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#BK_MAR16",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "BK_MAR16"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#bk_oct_11",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "bk_oct_11"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#bk_sep_11",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "bk_sep_11"
+      }
+    } ],
+    "subClasses" : [ "2", "9" ],
+    "comment" : {
+      "undefined" : "A very important step when performing the digital curation of objects concerns the division of them over the years. This action can be done both by the institution or by the digital curator."
+    },
+    "id" : "8",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#SingleFile",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SingleFile"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#00003990_-_00005205",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "00003990_-_00005205"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#DVA_atp",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "DVA_atp"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#pictures_variante_2",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "pictures_variante_2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#VTKBlender_demo",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "VTKBlender_demo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#bologna_monumentale",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "bologna_monumentale"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#map1_tex",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "map1_tex"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#big_buck_bunny_480p_surround-fix_stitch",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "big_buck_bunny_480p_surround-fix_stitch"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#gg_test_python_frame_handler",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "gg_test_python_frame_handler"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#google_vision",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "google_vision"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#referendum",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "referendum"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#dicsit_task_lug17",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "dicsit_task_lug17"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#find",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "find"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#use_vtk71",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "use_vtk71"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#credits",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "credits"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#PipelineProduzione",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "PipelineProduzione"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#examples",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "examples"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#TheWall_161Pyxurz",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "TheWall_161Pyxurz"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#pictures_variante",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "pictures_variante"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Blender",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Blender"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Single files might be found, and if they appear to be too important to be removed, they must be classified as such."
+    },
+    "id" : "9",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#SubFolder",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SubFolder"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#agipGrid_Galileo",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "agipGrid_Galileo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#virtualdub",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "virtualdub"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#blender-git",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "blender-git"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#numpy-1.13.1",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "numpy-1.13.1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#PPT",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "PPT"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#anim_tex",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "anim_tex"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#muvir_t_room",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "muvir_t_room"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#OSM2",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "OSM2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#IBC",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "IBC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#APA_REPO",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "APA_REPO"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#visit_dev_py",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "visit_dev_py"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Stark",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Stark"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Blender_MouseLook",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Blender_MouseLook"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Splotch",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Splotch"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#vtk_files",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "vtk_files"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Modelli_MAX",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Modelli_MAX"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Siggraph",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Siggraph"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#portableApps",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "portableApps"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#data",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "data"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#BUS",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "BUS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Galassia",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Galassia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#ClassesRenamer",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "ClassesRenamer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#ICE",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "ICE"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#myTools",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "myTools"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Lib",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Lib"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#LLVM-3.4",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "LLVM-3.4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#GE_versions",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "GE_versions"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#visit_REGGIA",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "visit_REGGIA"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Robot",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Robot"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#blender",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "blender"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#progetto_Iran",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "progetto_Iran"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#temp",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "temp"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#blender_rock2",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "blender_rock2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Locandina_Sala_Borsa",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Locandina_Sala_Borsa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Desktop",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Desktop"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#APT",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "APT"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#bin",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "bin"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Blender_Game_Demos",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Blender_Game_Demos"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#pic_view_conf",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "pic_view_conf"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Visit_demos",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Visit_demos"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#MAF",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "MAF"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#py_wow_sg",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "py_wow_sg"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#vnc_files",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "vnc_files"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#OpenApplications",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "OpenApplications"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#papers_Anto",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "papers_Anto"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#tcl_apps",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "tcl_apps"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Pizza",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Pizza"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#CLANG-3.4",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "CLANG-3.4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#FR",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "FR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#vnc-4",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "vnc-4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#FH",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "FH"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Blender_versions",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Blender_versions"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#triangle",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "triangle"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Documents",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Documents"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Progetti",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Progetti"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Dati",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Dati"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Books",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Books"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#pics",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "pics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#alembic-1.7.1",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "alembic-1.7.1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#G3D-7.00-win32",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "G3D-7.00-win32"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#MAX_maps",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "MAX_maps"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Dev",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Dev"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#DEV",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "DEV"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Boost",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Boost"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Slicer-4.8.0-linux-amd64",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Slicer-4.8.0-linux-amd64"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#BAU",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "BAU"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#DemoEngine",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "DemoEngine"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#WX",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "WX"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Blender_experiments",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Blender_experiments"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#OSG",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "OSG"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#projects",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "projects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Eval",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Eval"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Python",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Python"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#glut_stub",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "glut_stub"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Data",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Data"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#DANY_eevee",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "DANY_eevee"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#docs",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "docs"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#BIN",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "BIN"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#RapidSVNsrc",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "RapidSVNsrc"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#fire",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "fire"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#simone",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "simone"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#OLD_D",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "OLD_D"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Lua51",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Lua51"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#MDC",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "MDC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Mummy_new",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Mummy_new"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#blender-inst",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "blender-inst"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Downloads",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Downloads"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#orihalcon",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "orihalcon"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#images",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "images"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Gaiani",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Gaiani"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#blender-deps",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "blender-deps"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Prj",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Prj"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#PRJ",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "PRJ"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Bologna_CE",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Bologna_CE"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Gheller",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Gheller"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Mummy",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Mummy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#coding",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "coding"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#FbxSdk",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "FbxSdk"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Papers",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Papers"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#cython",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "cython"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#wow",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "wow"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#repo",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "repo"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Instead each backup folder there might be sub and sub-subfolders. It is very important to avoid having extremely long file paths."
+    },
+    "id" : "2",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#MainRepository",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MainRepository"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#Hard_Disk_1",
+      "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+      "labels" : {
+        "IRI-based" : "Hard_Disk_1"
+      }
+    } ],
+    "subClasses" : [ "8", "10" ],
+    "comment" : {
+      "undefined" : "The main repository is usually an external hard drive where the institution stored its files. However, it might be even a computer or other storage devices, if the institution decided to adopt a different approach."
+    },
+    "id" : "12"
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "8", "10" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "1"
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "27"
+  }, {
+    "instances" : 0,
+    "union" : [ "2", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "21"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#containsFolder",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "containsFolder"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A folder can contain other folders containing other folders or elements."
+    },
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#containsFiles",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "containsFiles"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "A folder contains files of various formats. This properties allows to define them and write them as a string."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#containsFile",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "containsFile"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "A folder can contain single files."
+    },
+    "attributes" : [ "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/type",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "This property allows to define the type of the file, which is different than the format. A file type can simply be a directory, for example, whereas the format requires to state the file extension."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#belongsTo",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "belongsTo"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "A folder, or a file, usually belongs to a main one, which is their father."
+    },
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/description",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "description"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "This property allows to write a brief description of the file or folder, taking into consideration its contents and history."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#hasSize",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasSize"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "This property allows to describe the size that the file occupies."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3#organizedInto",
+    "baseIri" : "http://www.semanticweb.org/david/ontologies/2021/0/untitled-ontology-3",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "organizedInto"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "This property allows to define how elements are organized inside a bigger folder."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "24"
+  }, {
+    "range" : "8",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/format",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "format"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "This property allows to define the format of the file."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "26"
+  }, {
+    "range" : "8",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "12",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "12",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  } ]
+}
